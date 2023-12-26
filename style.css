@@ -184,10 +184,6 @@ body {
     text-align: center;
 }
 
-* {
-    outline: 1px solid red;
-}
-
 .img-div {
     display: flex; 
     align-items: center; 
