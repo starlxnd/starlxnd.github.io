@@ -98,27 +98,21 @@ body {
     color: white;
     padding: 10px;
     margin-top: 30px;
+    font-size: 2vw;
 }
 
-.info {
-    border: 1px solid black;
-    border-right: 5px solid gray;
-    border-bottom: 5px solid gray;
-    margin-inline: 20px;
-    margin-top: 20px;
-
-}
 .paragraphs {
     padding-left: 25px;
     padding-right: 50px;
-    font-size: 1.12vw;
+    font-size: clamp(12px, 20px, 1.25vw);
     text-align: justify;
+    max-width: 100%;
 
 }
 
 .logos img {
-    height: 100px;
-    margin-inline: 50px;
+    height: 10vh;
+    margin-inline: 3%;
 }
 
 .logos {
@@ -165,6 +159,14 @@ body {
 
 .info {
     display: flex;
+    max-width: 100%; 
+    overflow-x: scroll;
+    border: 1px solid black;
+    border-right: 5px solid gray;
+    border-bottom: 5px solid gray;
+    margin-top: 20px;
+    margin-inline: 20px;
+    min-width: 80%;
 }
 
 .content-block {
@@ -180,4 +182,19 @@ body {
     text-decoration: none;
     margin: auto;
     text-align: center;
+}
+
+* {
+    outline: 1px solid red;
+}
+
+.img-div {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 75%;
+}
+
+.img-div > img {
+    width: 100%;
 }
