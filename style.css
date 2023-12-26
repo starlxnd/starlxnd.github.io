@@ -189,6 +189,7 @@ body {
     align-items: center; 
     justify-content: center; 
     width: 75%;
+    margin-left: 20px;
 }
 
 .img-div > img {
