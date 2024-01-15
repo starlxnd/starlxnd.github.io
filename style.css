@@ -195,3 +195,15 @@ body {
 .img-div > img {
     width: 100%;
 }
+
+.content {
+    pointer-events: none;
+}
+
+.sidebar {
+    pointer-events: none;
+}
+
+.button {
+    pointer-events: auto;
+}

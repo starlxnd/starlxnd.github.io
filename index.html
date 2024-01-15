@@ -173,6 +173,7 @@
         duration: 1000, 
         complete: function(anim) {
             document.getElementsByClassName('slide-away')[0].remove();
+            document.getElementsByClassName('main-page')[0].style.zIndex = "1";
         }
         });
     }
